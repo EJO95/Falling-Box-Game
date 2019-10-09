@@ -5,7 +5,7 @@ using System.Text;
 namespace Falling_Box_Game
 { 
 
-    class Poison : PoisInterface
+    class Poison : IPosition
     {
         public Position Position 
         { 
