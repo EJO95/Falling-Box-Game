@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olderer\\OneDrive - Vertafore, Inc\\Programming\\C#\\Falling Boxes Game\\Falling Box Game\\Falling Box Game\\Falling Box Game.csproj": {}
+    "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olderer\\OneDrive - Vertafore, Inc\\Programming\\C#\\Falling Boxes Game\\Falling Box Game\\Falling Box Game\\Falling Box Game.csproj": {
+    "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olderer\\OneDrive - Vertafore, Inc\\Programming\\C#\\Falling Boxes Game\\Falling Box Game\\Falling Box Game\\Falling Box Game.csproj",
+        "projectUniqueName": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
         "projectName": "Falling Box Game",
-        "projectPath": "C:\\Users\\olderer\\OneDrive - Vertafore, Inc\\Programming\\C#\\Falling Boxes Game\\Falling Box Game\\Falling Box Game\\Falling Box Game.csproj",
+        "projectPath": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
         "packagesPath": "C:\\Users\\olderer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olderer\\OneDrive - Vertafore, Inc\\Programming\\C#\\Falling Boxes Game\\Falling Box Game\\Falling Box Game\\obj\\",
+        "outputPath": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
