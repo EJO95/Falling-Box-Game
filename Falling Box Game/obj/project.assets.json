@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\olderer\\.nuget\\packages\\": {},
+    "C:\\Users\\quinnau\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
+      "projectUniqueName": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
       "projectName": "Falling Box Game",
-      "projectPath": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
-      "packagesPath": "C:\\Users\\olderer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olderer\\source\\repos\\Falling-Box-Game\\Falling Box Game\\obj\\",
+      "projectPath": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
+      "packagesPath": "C:\\Users\\quinnau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\olderer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\quinnau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -712,7 +712,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://qqdevelopment.pkgs.visualstudio.com/_packaging/QQHostedNuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -729,16 +730,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
