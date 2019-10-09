@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {}
+    "C:\\Users\\quinnau\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {
+    "C:\\Users\\quinnau\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
+        "projectUniqueName": "C:\\Users\\quinnau\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
         "projectName": "Falling Box Game",
-        "projectPath": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
+        "projectPath": "C:\\Users\\quinnau\\source\\repos\\Falling-Box-Game\\Falling Box Game\\Falling Box Game.csproj",
         "packagesPath": "C:\\Users\\quinnau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quinnau\\Source\\Repos\\Falling-Box-Game\\Falling Box Game\\obj\\",
+        "outputPath": "C:\\Users\\quinnau\\source\\repos\\Falling-Box-Game\\Falling Box Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
