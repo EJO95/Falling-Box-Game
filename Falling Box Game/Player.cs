@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Falling_Box_Game
+﻿namespace Falling_Box_Game
 {
     class Player
     {
@@ -12,13 +8,13 @@ namespace Falling_Box_Game
         public bool IsOnSideOfBox { get; set; }
         public int PlayerPositionX { get; set; }
         public int PlayerPositionY { get; set; }
-        public Player(int sizeOfCharacter)
+        public Player(int sizeOfCharacter, int startX)
         {
             Size = sizeOfCharacter;
             IsAlive = true;
             IsAirborne = false;
             IsOnSideOfBox = false;
-            PlayerPositionX = 0;
+            PlayerPositionX = startX;
             PlayerPositionY = 0;
         }
     }
