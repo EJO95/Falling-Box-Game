@@ -1,7 +1,4 @@
-﻿using System;
-using Falling_Box_Game;
-
-namespace Falling_Box_Game
+﻿namespace Falling_Box_Game
 {
     public class GameBoard : IGameBoard
     {

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading;
 
 namespace Falling_Box_Game
@@ -26,7 +25,7 @@ namespace Falling_Box_Game
             GameBoard gameBoard = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
             Player player = new Player(PLAYER_SIZE);
 
-            while(player.IsAlive)
+            while (player.IsAlive)
             {
                 boxGroup.Add(new Box());
                 //spawn new box
