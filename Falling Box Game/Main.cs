@@ -14,7 +14,7 @@ namespace Falling_Box_Game
             const int PLAYER_SIZE = 22;
             const int BOARD_WIDTH = 100;
             const int BOARD_HEIGHT = 600;
-            const int START_INTERVAL = 500;
+            const int START_INTERVAL = 500; //in miliseconds
 
             #endregion
 
