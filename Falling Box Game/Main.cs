@@ -8,10 +8,16 @@ namespace Falling_Box_Game
     {
         static void Main(string[] args)
         {
+            ///<summary>Location of game logic constants</summary>
+            ///Player_Size, Board height and width, starting box interval
+            ///
+            #region constant game settings
             const int PLAYER_SIZE = 22;
             const int BOARD_WIDTH = 100;
             const int BOARD_HEIGHT = 600;
             const int START_INTERVAL = 500;
+
+            #endregion
 
             int delayTimer = START_INTERVAL;
 
