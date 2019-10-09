@@ -10,6 +10,8 @@ namespace Falling_Box_Game
             const int BOARDWIDTH = 100;
             const int BOARDHEIGHT = 600;
 
+            Player player = new Player(PLAYERSIZE);
+            //GameBoard gameBoard = new GameBoard(BOARDWIDTH, BOARDHEIGHT);
         }
     }
 }
