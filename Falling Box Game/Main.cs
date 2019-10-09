@@ -19,7 +19,7 @@ namespace Falling_Box_Game
 
             Player player = new Player(PLAYER_SIZE);
             //GameBoard gameBoard = new GameBoard(BOARD_WIDTH, BOARD_HEIGHT);
-            while(player.isAlive)
+            while(player.IsAlive)
             {
                 boxGroup.Add(new Box());
                 //spawn new box
