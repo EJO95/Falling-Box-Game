@@ -1,6 +1,8 @@
-﻿
+﻿namespace Falling_Box_Game
+{
     public interface IFallingSpeed
     {
-        int fallingSpeed { get; set; }
+        int FallingSpeed { get; set; }
 
     }
+}

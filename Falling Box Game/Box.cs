@@ -5,14 +5,14 @@ namespace Falling_Box_Game
 
     public class Box
     {
-        public int size { get; private set; }
-        public bool isFalling { get; private set; }
+        public int Size { get; private set; }
+        public bool IsFalling { get; private set; }
 
         public Box ()
         {
             Random rand = new Random();
-            size = rand.Next(1000); // This will need to be adusted 
-            isFalling = true; 
+            Size = rand.Next(1000); // This will need to be adusted 
+            IsFalling = true; 
         }
 
     }
