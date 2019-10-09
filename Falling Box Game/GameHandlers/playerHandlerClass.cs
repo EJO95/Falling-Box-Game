@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Falling_Box_Game
+namespace Falling_Box_Game.GameHandlers
 {
     public class PlayerHandlerClass
     {

@@ -1,4 +1,6 @@
-﻿namespace Falling_Box_Game
+﻿using Falling_Box_Game.GameInterfaces;
+
+namespace Falling_Box_Game.GameElements
 {
     public class GameBoard : IGameBoard
     {

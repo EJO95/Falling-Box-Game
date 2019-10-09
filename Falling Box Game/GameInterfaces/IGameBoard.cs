@@ -1,4 +1,4 @@
-﻿namespace Falling_Box_Game
+﻿namespace Falling_Box_Game.GameInterfaces
 {
     public interface IGameBoard
     {

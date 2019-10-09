@@ -1,6 +1,8 @@
 ﻿using System;
+using Falling_Box_Game.GameHandlers;
+using Falling_Box_Game.GameElements;
 
-namespace Falling_Box_Game
+namespace Falling_Box_Game.GameInterfaces
 {
     interface IPosition
     {

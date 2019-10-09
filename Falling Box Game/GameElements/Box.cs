@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Falling_Box_Game
+namespace Falling_Box_Game.GameElements
 {
 
     public class Box

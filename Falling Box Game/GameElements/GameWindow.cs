@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Falling_Box_Game;
-
-namespace Falling_Box_Game
+﻿using Falling_Box_Game.GameInterfaces;
+namespace Falling_Box_Game.GameElements
 {
     class GameWindow : IGameWindow
     {
