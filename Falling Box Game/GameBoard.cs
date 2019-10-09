@@ -1,7 +1,7 @@
 ﻿using System;
 using Falling_Box_Game;
 
-namespace GameLibrary.GameElements
+namespace Falling_Box_Game
 {
     public class GameBoard : IGameBoard
     {

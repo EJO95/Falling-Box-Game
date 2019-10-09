@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Falling_Box_Game;
 
-namespace GameLibrary.GameElements
+namespace Falling_Box_Game
 {
     class GameWindow
     {
