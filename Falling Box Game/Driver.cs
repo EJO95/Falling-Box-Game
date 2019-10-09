@@ -6,7 +6,10 @@ namespace Falling_Box_Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            const int PLAYERSIZE = 22;
+            const int BOARDWIDTH = 100;
+            const int BOARDHEIGHT = 600;
+
         }
     }
 }
