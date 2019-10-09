@@ -13,12 +13,12 @@ namespace Falling_Box_Game
             set => new Position(); 
         }
 
-        public void Grow(double growRate)
+        public void Grow(int growRate)
         {
             Position.setPoint(Position.X + growRate, Position.Y + growRate);
         }
 
-        public void PlacePoision(double x, double y)
+        public void PlacePoision(int x, int y)
         {
             Position.setPoint(x, y);
         }

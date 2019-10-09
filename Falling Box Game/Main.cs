@@ -22,6 +22,7 @@ namespace Falling_Box_Game
 
             List<Box> boxGroup = new List<Box>();
 
+
             GameBoard gameBoard = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
             Player player = new Player(PLAYER_SIZE, BOARD_WIDTH/2);
             GameWindow gameWindow = new GameWindow(gameBoard, player);
