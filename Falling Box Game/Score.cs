@@ -6,18 +6,18 @@ namespace Falling_Box_Game
 {
     public class Score
     {
-        public int score { get; private set; }
+        public int ScoreBoard { get; private set; }
         public Score()
         {
-            score = 0; 
+            ScoreBoard = 0; 
         }
-        public int updateScore(int newScore)
+        public int UpdateScore(int newScore)
         {
-            if(newScore > score)
+            if(newScore > ScoreBoard)
             {
-                score = newScore; 
+                ScoreBoard = newScore; 
             }
-            return score; 
+            return ScoreBoard; 
         }
         
     }

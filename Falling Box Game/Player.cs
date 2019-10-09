@@ -6,16 +6,16 @@ namespace Falling_Box_Game
 {
     class Player
     {
-        public int size { get; set; }
-        public bool isAlive { get; set; }
-        public bool isAirborne { get; set; }
-        public bool isOnSideOfBox { get; set; }
+        public int Size { get; set; }
+        public bool IsAlive { get; set; }
+        public bool IsAirborne { get; set; }
+        public bool IsOnSideOfBox { get; set; }
         public Player(int sizeOfCharacter)
         {
-            size = sizeOfCharacter;
-            isAlive = true;
-            isAirborne = false;
-            isOnSideOfBox = false;
+            Size = sizeOfCharacter;
+            IsAlive = true;
+            IsAirborne = false;
+            IsOnSideOfBox = false;
         }
     }
 }
