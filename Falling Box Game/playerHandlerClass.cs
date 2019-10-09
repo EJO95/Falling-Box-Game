@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Falling_Box_Game
 {
-    public class playerHandlerClass
+    public class PlayerHandlerClass
     {
-        public playerHandlerClass()
+        public PlayerHandlerClass()
         {
             KeyDown += new KeyEventHandler(Player_KeyDown);
         }
