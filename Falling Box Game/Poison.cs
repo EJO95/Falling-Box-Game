@@ -5,7 +5,7 @@ using System.Text;
 namespace Falling_Box_Game
 { 
 
-    class Poison : IPosition
+    class Poison : IPoison
     {
         public Position Position 
         { 
@@ -23,6 +23,7 @@ namespace Falling_Box_Game
             Position.setPoint(x, y);
         }
 
+        //if player meets death from touching poison then true, otherwise false
         public bool PlayerAndPoison(Player player)
         {
             return player.PlayerPositionX <= Position.X && 
