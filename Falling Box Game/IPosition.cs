@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Falling_Box_Game
 {
-    interface PoisInterface
+    interface IPosition
     {
         Position Position
         { get; set; }

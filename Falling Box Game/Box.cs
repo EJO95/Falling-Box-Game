@@ -8,11 +8,11 @@ namespace Falling_Box_Game
         public int Size { get; private set; }
         public bool IsFalling { get; private set; }
 
-        public Box ()
+        public Box()
         {
             Random rand = new Random();
             Size = rand.Next(1000); // This will need to be adusted 
-            IsFalling = true; 
+            IsFalling = true;
         }
 
     }

@@ -1,24 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Falling_Box_Game
+﻿namespace Falling_Box_Game
 {
     public class Score
     {
         public int ScoreBoard { get; private set; }
         public Score()
         {
-            ScoreBoard = 0; 
+            ScoreBoard = 0;
         }
         public int UpdateScore(int newScore)
         {
-            if(newScore > ScoreBoard)
+            if (newScore > ScoreBoard)
             {
-                ScoreBoard = newScore; 
+                ScoreBoard = newScore;
             }
-            return ScoreBoard; 
+            return ScoreBoard;
         }
-        
+
     }
 }

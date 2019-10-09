@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Falling_Box_Game
+﻿namespace Falling_Box_Game
 {
     class Player
     {
