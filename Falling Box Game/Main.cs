@@ -23,9 +23,9 @@ namespace Falling_Box_Game
 
             List<Box> boxGroup = new List<Box>();
 
-            
+            GameBoard gameBoard = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
             Player player = new Player(PLAYER_SIZE);
-            //GameBoard gameBoard = new GameBoard(BOARD_WIDTH, BOARD_HEIGHT);
+
             while(player.IsAlive)
             {
                 boxGroup.Add(new Box());
