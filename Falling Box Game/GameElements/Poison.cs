@@ -7,7 +7,7 @@ using Falling_Box_Game.GameInterfaces;
 namespace Falling_Box_Game.GameElements
 { 
 
-    class Poison : IPosition
+    class Poison : IPoison
     {
         public Position Position 
         { 
@@ -15,20 +15,23 @@ namespace Falling_Box_Game.GameElements
             set => new Position(); 
         }
 
-        public void Grow(double growRate)
+        public void Grow(int growRate)
         {
             Position.setPoint(Position.X + growRate, Position.Y + growRate);
         }
 
-        public void PlacePoision(double x, double y)
+        public void PlacePoision(int x, int y)
         {
             Position.setPoint(x, y);
         }
 
+        //if player meets death from touching poison then true, otherwise false
         public bool PlayerAndPoison(Player player)
         {
             return player.PlayerPositionX <= Position.X && 
                 (player.PlayerPositionY + (player.Size / 2) <= Position.Y);
         }
+
+
     }
 }

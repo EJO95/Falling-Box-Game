@@ -4,32 +4,28 @@ namespace Falling_Box_Game.GameHandlers
 {
     class Position
     {
-        private double x, y;
+        private int x, y;
 
-        public double X
+        public int X
         {
             get => x;
         }
-        public double Y
+        public int Y
         {
             get => y;
         }
 
         //initializes poison to be on the board at x, y position
-        public Position(double x, double y)
+        public Position(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
 
         //default point if no x, y coordinates are given
-        public Position()
-        {
-            this.x = 0;
-            this.y = 0;
-        }
+        public Position() => new Position(0,0);
 
-        public void setPoint(double x, double y)
+        public void setPoint(int x, int y)
         {
             this.x = x;
             this.y = y;

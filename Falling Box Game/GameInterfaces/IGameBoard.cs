@@ -4,5 +4,7 @@
     {
         int BoardHeight { get; set; }
         int BoardWidth { get; set; }
+        
+        bool GameOver { get; set; }
     }
 }
