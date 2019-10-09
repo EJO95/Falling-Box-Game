@@ -1,6 +1,6 @@
 ﻿
     public interface IFallingSpeed
     {
-        int fallingSpeed { get; set; }
+        int FallingSpeed { get; set; }
 
     }
