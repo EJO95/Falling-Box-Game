@@ -26,7 +26,7 @@ namespace Falling_Box_Game
         public bool PlayerAndPoison(Player player)
         {
             return player.PlayerPositionX <= Position.X && 
-                (player.PlayerPositionY + (player.Size / 2) <= player.PlayerPositionY);
+                (player.PlayerPositionY + (player.Size / 2) <= Position.Y);
         }
     }
 }
