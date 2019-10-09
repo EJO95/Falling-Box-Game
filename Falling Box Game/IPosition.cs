@@ -7,11 +7,11 @@ namespace Falling_Box_Game
         Position Position
         { get; set; }
 
-        void PlacePoision(double x, double y);
+        void PlacePoision(int x, int y);
 
         Boolean PlayerAndPoison(Player player);
 
-        void Grow(double growRate);
+        void Grow(int growRate);
 
     }
 }
