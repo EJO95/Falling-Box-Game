@@ -13,8 +13,6 @@ namespace Falling_Box_Game
 
         public void TrackPlayerHeight(Player player)
         {
-            //player.PlayerPositionY <= WindowHeight / 2 ? WindowHeightTop = WindowHeight : WindowHeightTop = player.PlayerPositionY + WindowHeight / 2;
-
             if (player.PlayerPositionY <= WindowHeight / 2)
             {
                 WindowHeightTop = WindowHeight;
