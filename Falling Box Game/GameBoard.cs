@@ -4,6 +4,7 @@
     {
         public int BoardHeight { get; set; }
         public int BoardWidth { get; set; }
+        public bool GameOver { get; set; }
         //(0,0) Bottom left corner
         //(0,boardHeight) Bottom right corner
         //(BoardWidth, 0) Top left corner
@@ -12,6 +13,7 @@
         {
             BoardHeight = height;
             BoardWidth = width;
+            GameOver = false; 
         }
 
     }
