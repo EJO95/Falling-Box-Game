@@ -9,33 +9,35 @@ namespace Falling_Box_Game.GameElements
 
     class Poison : IPoison
     {
+        private Position position;
+
         public Poison(int X, int Y)
         {
-            Position Position = new Position();
-            Position.setPoint(X, Y);
+            position = new Position();
+            position.setPoint(X, Y);
         }
 
-        public Position Position 
-        { 
-            get => Position;
+        public Position Position
+        {
+            get => position;
             set => new Position();
         }
 
         public void Grow(int growRate)
         {
-            Position.setPoint(Position.X, Position.Y + growRate);
+            position.setPoint(position.X, position.Y + growRate);
         }
 
         public void PlacePoision(int x, int y)
         {
-            Position.setPoint(x, y);
+            position.setPoint(x, y);
         }
 
         //if player meets death from touching poison then true, otherwise false
         public bool PlayerAndPoison(Player player)
         {
-            return player.PlayerPositionX <= Position.X && 
-                (player.PlayerPositionY + (player.Size / 2) <= Position.Y);
+            return player.PlayerPositionX <= position.X && 
+                (player.PlayerPositionY + (player.Size / 2) <= position.Y);
         }
 
 
