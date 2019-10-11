@@ -8,7 +8,7 @@ namespace Falling_Box_Game.GameHandlers
     {
         public PlayerHandlerClass()
         {
-            KeyDown += new KeyEventHandler(Player_KeyDown);
+           /* KeyDown += new KeyEventHandler(Player_KeyDown);
         }
         //public event EventHandler KeyPressed;
         public void Player_KeyDown(object sender, KeyEventArgs key)
@@ -21,7 +21,7 @@ namespace Falling_Box_Game.GameHandlers
                 case Keys.Down:
                     Console.WriteLine("Down Key Pressed");
                     break;
-            }
+            }*/
         }
     }
 }
