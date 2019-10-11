@@ -9,15 +9,21 @@ namespace Falling_Box_Game.GameElements
 
     class Poison : IPoison
     {
+        public Poison(int X, int Y)
+        {
+            Position Position = new Position();
+            Position.setPoint(X, Y);
+        }
+
         public Position Position 
         { 
             get => Position;
-            set => new Position(); 
+            set => new Position();
         }
 
         public void Grow(int growRate)
         {
-            Position.setPoint(Position.X + growRate, Position.Y + growRate);
+            Position.setPoint(Position.X, Position.Y + growRate);
         }
 
         public void PlacePoision(int x, int y)
