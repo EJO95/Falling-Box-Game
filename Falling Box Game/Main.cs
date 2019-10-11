@@ -38,7 +38,7 @@ namespace Falling_Box_Game
                 //handle checking
                 Thread.Sleep(delayTimer);
                 poison.Grow(POISON_GROWTH_RATE);
-                player.IsAlive = poison.PlayerAndPoison(player);
+                player.IsAlive = !poison.PlayerAndPoison(player);
             }
         }
     }
