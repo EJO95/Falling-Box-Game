@@ -8,14 +8,14 @@
         public bool IsOnSideOfBox { get; set; }
         public int PlayerPositionX { get; set; }
         public int PlayerPositionY { get; set; }
-        public Player(int sizeOfCharacter, int startX)
+        public Player(int sizeOfCharacter, int startX, int startY)
         {
             Size = sizeOfCharacter;
             IsAlive = true;
             IsAirborne = false;
             IsOnSideOfBox = false;
             PlayerPositionX = startX;
-            PlayerPositionY = 0;
+            PlayerPositionY = startY;
         }
 
         /* Method that crushes the player. When this method is called, player.IsAlive = false

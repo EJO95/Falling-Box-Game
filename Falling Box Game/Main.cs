@@ -16,6 +16,7 @@ namespace Falling_Box_Game
             const int BOARD_WIDTH = 100;
             const int BOARD_HEIGHT = 600;
             const int START_INTERVAL = 500; //in miliseconds
+            const int PLAYER_Y_POSITION = BOARD_HEIGHT / 2;
             const int POISON_GROWTH_RATE = 4;
             const int POISON_Y_POSITION = 0;
             #endregion
@@ -26,7 +27,7 @@ namespace Falling_Box_Game
 
 
             GameBoard gameBoard = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
-            Player player = new Player(PLAYER_SIZE, BOARD_WIDTH/2);
+            Player player = new Player(PLAYER_SIZE, BOARD_WIDTH/2, PLAYER_Y_POSITION);
             GameWindow gameWindow = new GameWindow(gameBoard, player);
             Poison poison = new Poison(BOARD_WIDTH, POISON_Y_POSITION);
 
